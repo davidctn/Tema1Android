@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBB86FC"
+    tools:context=".fragments.F2A2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#26ff00"
+        android:textSize="99dp"
+        android:text="F2A2"
+        android:layout_gravity="top"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/replaceF2A2withF2A3"
+        android:textSize="22dp"
+        android:onClick="replaceF2A2withF3A2"
+        android:textColor="#26ff00"/>
+
+    <Button
+        android:textSize="22dp"
+        android:textColor="#26ff00"
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/backToF1A2"
+        android:onClick="backToF1A2"
+        android:layout_marginTop="80dp"
+        android:/>
+
+    <Button
+        android:textSize="22dp"
+        android:textColor="#26ff00"
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/closeActivity"
+        android:onClick="closeActivity"
+        android:layout_marginTop="160dp" />
+
+
+
+</FrameLayout>

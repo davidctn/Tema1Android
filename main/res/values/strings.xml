@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">H1ActivitiesAndFragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="F1A1">This is F1A1</string>
+    <string name="F1A2">This is F1A2</string>
+    <string name="F2A2">This is F2A2</string>
+    <string name="F3A2">This is F3A2</string>
+    <string name="addF2A2">Add F2A2</string>
+    <string name="replaceF2A2withF2A3">Replace F2A2 with F3A2</string>
+    <string name="closeActivity">Close this Activity</string>
+    <string name="backToF1A2">Replace F2A2 with F3A2</string>
+</resources>
